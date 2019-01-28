@@ -1,5 +1,5 @@
 (defproject dogcon "0.1.0-SNAPSHOT"
-  :description "FIXME: write this!"
+  :description "Dogcon - A console for Dogbot"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
@@ -11,7 +11,7 @@
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [org.clojure/clojurescript "1.10.238"]
                  [org.clojure/core.async  "0.4.474"]
-                 [reagent "0.7.0"]]
+                 [reagent-material-ui "0.2.5"]]
 
   :plugins [[lein-figwheel "0.5.16"]
             [lein-cljsbuild "1.1.7" :exclusions [[org.clojure/clojure]]]]
