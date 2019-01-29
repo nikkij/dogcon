@@ -28,7 +28,7 @@
 (defn title []
   [:div
    [:h1 (:text @app-state)]
-   [:h3 "A console for dogbot!"]])
+   [:h3 "Status: Offline"]])
 
 (defn page []
   [ui/MuiThemeProvider theme-defaults
